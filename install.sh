@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for FILE in .vimrc .tmux.conf .ssh/rc;
+for FILE in .vimrc .tmux.conf .ssh/rc .gitconfig .gitignore;
 do
     if [ -a ~/$FILE ]; then
         echo "Skipping $FILE"
