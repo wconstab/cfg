@@ -3,7 +3,7 @@
 	email = willconstable@gmail.com
     username = wconstab
 [core]
-	excludesfile = ~/.gitignore
+	excludesfile = /Users/will/.gitignore
     editor = vim
 [merge]
     tool = vimdiff

@@ -1,0 +1,28 @@
+
+{
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "oceaneye",
+    "editor.fontFamily": "Monaco, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "editor.fontWeight": "500",
+    "terminal.integrated.fontFamily": "Monaco",
+    "terminal.integrated.fontSize": 13,
+    "workbench.fontAliasing": "antialiased",
+    "workbench.colorCustomizations": {
+
+    },
+    "C_Cpp.enhancedColorization": "Disabled",
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "cmake.sourceDirectory": "${workspaceFolder}/llvm",
+    "cmake.configureArgs": [
+        "-DLLVM_ENABLE_PROJECTS=mlir",
+        "-DLLVM_BUILD_EXAMPLES=ON",
+        "-DLLVM_TARGETS_TO_BUILD=X86;NVPTX;AMDGPU"
+    ],
+    "materialTheme.accent": "Acid Lime",
+    "cmake.buildEnvironment": {
+
+    }
+}

@@ -19,3 +19,16 @@ do
         ln -s `pwd`/vimcolors/$FILE ~/.vim/colors/
     fi
 done
+
+# Install vscode extensions
+VSCODE_EXT=~/.vscode/extensions
+if [ ! -d $VSCODE_EXT ]; then
+    mkdir -p $VSCODE_EXT
+fi
+for FILE in `ls vscode/extensions`
+do
+    if [ ! -d $FILE ]; then
+        ln -s `pwd`/vscode/extensions/$FILE $VSCODE_EXT/$FILE
+    fi
+done
+

@@ -1,0 +1,167 @@
+{
+	"name": "oceaneye",
+	"type": "dark",
+	"colors": {
+		// UI
+
+		// Title bar and tabs
+		"titleBar.inactiveBackground": "#001f27",
+		"titleBar.activeBackground": "#001f27",
+		"tab.inactiveBackground": "#001f27",
+		"tab.activeBackground": "#002833",
+		"editorGroupHeader.tabsBackground": "#001f27",
+
+		// Accents
+		"pickerGroup.border": "#ffc400",
+
+		// Lighter background
+		"list.focusBackground": "#002833",
+		"list.hoverBackground": "#002833",
+		"list.activeSelectionBackground": "#002833",
+		"editorWidget.border": "#002833",
+		"dropdown.background": "#002833",
+		"input.background": "#002833",
+		"debugToolBar.background": "#002833",
+
+
+		// Dark background
+		"list.inactiveSelectionBackground": "#001f27",
+		"editorHoverWidget.background": "#001f27",
+		"quickInput.background": "#001f27",
+		"editorSuggestWidget.background": "#001f27",
+		"peekViewResult.background": "#001f27",
+		"editorWidget.background": "#001f27",
+		"tab.border": "#001f27",
+		"panel.background": "#001f27",	// Terminal pane
+		"button.background": "#001f27",
+
+
+		// WIP
+		"listFilterWidget.background": "#ff0000",
+		"peekViewEditor.background": "#ff0000",
+		"menu.background": "#c8ff00",
+		"breadcrumbPicker.background": "#ff0000",
+		"list.deemphasizedForeground": "#ff0000",
+		"list.inactiveFocusBackground": "#ff0000",
+
+		// Left side
+		"sideBarSectionHeader.background": "#001f27",
+		"sideBarSectionHeader.foreground": "#a4bdc4",
+		"sideBar.background": "#001f27",
+		"activityBar.background": "#001f27",
+		"badge.background": "#001f27",
+		"badge.foreground": "#a4bdc4",
+		"activityBar.activeBackground": "#009999",
+
+
+		// Editor
+		"editor.background": "#002833",
+		"breadcrumb.background": "#002833",             // the thing at the top of the editor that shows the file path
+		"editor.lineHighlightBackground": "#00303d",
+		"editorRuler.foreground": "#ee0404",
+		"editorGroup.border": "#181a1f",
+		"editorGroup.emptyBackground": "#181a1f",
+
+		// Terminal/Panel Pane
+		"terminal.background": "#002833",
+		"terminal.foreground": "#d4dede",
+		"terminal.ansiBlack": "#003440",
+		"terminal.ansiRed": "#dc312e",
+		"terminal.ansiGreen": "#859901",
+		"terminal.ansiYellow": "#b58900",
+		"terminal.ansiBlue": "#268ad2",
+		"terminal.ansiMagenta": "#d33582",
+		"terminal.ansiCyan": "#2aa197",
+		"terminal.ansiWhite": "#eee8d5",
+
+		// Bottom Status Bar
+		"statusBar.background": "#009999",
+		"statusBar.foreground": "#ffffff",
+		"statusBarItem.hoverBackground": "#00b6b6",
+		"statusBar.noFolderBackground": "#009999",
+
+		"notifications.background": "#003440",
+
+		// Debug mode customization
+		"statusBar.debuggingBackground": "#009999",
+		// statusbar.de
+		// "statusBar.debuggingForeground": "#fd7171",
+	},
+	"tokenColors": [
+
+		{
+			"scope": [
+				"string",
+			],
+			"settings": {
+				"foreground": "#2090f8",
+			}
+		},
+		{
+			"scope": [
+				"comment",
+				"punctuation.definition.comment",
+
+			],
+			"settings": {
+				"foreground": "#ffe600c5",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"constant",
+			],
+			"settings": {
+				"foreground": "#2090f8"
+			}
+		},
+		{
+			"scope":[
+				"variable",
+			],
+			"settings": {
+				"foreground": "#FCA636"
+			}
+		},
+		{
+			"scope": [
+				"punctuation",
+				"source",
+				"string.json",
+				"meta.body.function.definition.cpp"
+			],
+			"settings": {
+				"foreground": "#d4dede"
+			}
+		},
+		{
+			// int, auto, namespace::type ...
+			"scope":
+				[
+					"storage",
+					"entity.name.type",
+					"entity.name.scope-resolution"
+				],
+			"settings": {
+				"foreground": "#d4dede"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function",
+				"meta.function-call"
+			],
+			"settings": {
+				"foreground": "#00bdbd",
+			}
+		},
+		{
+			// return, include, etc
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#F92672"
+			}
+		},
+	]
+}
